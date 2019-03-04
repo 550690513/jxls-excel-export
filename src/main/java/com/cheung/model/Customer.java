@@ -1,4 +1,4 @@
-package com.cheung.pojo;
+package com.cheung.model;
 
 import lombok.Data;
 
@@ -6,7 +6,7 @@ import lombok.Data;
  * @author Cheung
  */
 @Data
-public class Employee {
+public class Customer extends ExportDataModel {
 
 	private Integer id;
 
@@ -14,10 +14,10 @@ public class Employee {
 
 	private String number;
 
-	public Employee() {
+	public Customer() {
 	}
 
-	public Employee(Integer id, String name, String number) {
+	public Customer(Integer id, String name, String number) {
 		this.id = id;
 		this.name = name;
 		this.number = number;
