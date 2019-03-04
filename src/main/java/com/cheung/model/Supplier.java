@@ -12,14 +12,14 @@ public class Supplier extends ExportDataModel {
 
 	private String name;
 
-	private String number;
+	private String address;
 
 	public Supplier() {
 	}
 
-	public Supplier(Integer id, String name, String number) {
+	public Supplier(Integer id, String name, String address) {
 		this.id = id;
 		this.name = name;
-		this.number = number;
+		this.address = address;
 	}
 }

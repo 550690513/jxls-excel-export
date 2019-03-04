@@ -18,8 +18,8 @@ public class CustomerServiceImpl implements CustomerService {
 	public List<Customer> list() {
 		// 模拟数据
 		List<Customer> list = new ArrayList<>();
-		list.add(new Customer(1, "Elsa", "18"));
-		list.add(new Customer(2, "Oleg", "25"));
+		list.add(new Customer(1, "Elsa", "13811112222"));
+		list.add(new Customer(2, "Oleg", "15266661234"));
 		return list;
 	}
 

@@ -12,14 +12,14 @@ public class Customer extends ExportDataModel {
 
 	private String name;
 
-	private String number;
+	private String tel;
 
 	public Customer() {
 	}
 
-	public Customer(Integer id, String name, String number) {
+	public Customer(Integer id, String name, String tel) {
 		this.id = id;
 		this.name = name;
-		this.number = number;
+		this.tel = tel;
 	}
 }
